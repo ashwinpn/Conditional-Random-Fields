@@ -1,5 +1,5 @@
 # Conditional-Random-Fields
-An analysis and implementation of Conditional Random Fields, which are used when the input data is dependent on each other.
+An analysis and implementation of Conditional Random Fields (https://en.wikipedia.org/wiki/Conditional_random_field).
 
 
 ## Why the discussion on CRF?
