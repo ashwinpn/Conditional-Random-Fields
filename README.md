@@ -2,7 +2,7 @@
 An analysis and implementation of Conditional Random Fields (https://en.wikipedia.org/wiki/Conditional_random_field).
 
 
-## Why the discussion on CRF?
+## Why the discussion on Conditional Random Fields?
 
 Models such as HMM do not really work that well on complex POS tagging (Part of speech tagging) tasks, since they do not deal with context all that well. Superior models for POS tagging, such as structured correspondence learning, are based on either Markov Random Fields or Conditional Random Fields.
 
