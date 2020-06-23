@@ -1,5 +1,5 @@
 # Conditional-Random-Fields
-An analysis and implementation of Conditional Random Fields (https://en.wikipedia.org/wiki/Conditional_random_field).
+An analysis and implementation of Conditional Random Fields (CRF's) (https://en.wikipedia.org/wiki/Conditional_random_field) - with applications to Natural Language Processing.
 
 
 ## Why the discussion on Conditional Random Fields?
