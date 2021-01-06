@@ -18,8 +18,3 @@ Conditional Random Fields are used for entity recognition, genome analysis, and 
 
 Sparse Gaussian CRF's are a particular variant of Gaussian CRF's where the loss function incorporates an ```L1``` penalty in order to promote sparsity among the estimated parameters. Setting ```lamda[L] >> lambda[T]``` results in Lasso regression, while setting ```lamda[T] >> lamda[L]``` results in a Graphical Lasso.
 
-\begin{aligned}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{aligned}
