@@ -18,3 +18,8 @@ Conditional Random Fields are used for entity recognition, genome analysis, and 
 
 Sparse Gaussian CRF's are a particular variant of Gaussian CRF's where the loss function incorporates an ```L1``` penalty in order to promote sparsity among the estimated parameters. Setting ```lamda[L] >> lambda[T]``` results in Lasso regression, while setting ```lamda[T] >> lamda[L]``` results in a Graphical Lasso.
 
+## Hidden State Conditional Random Field
+The model classifies sequences according to a latent state sequence. This package consists of methods to enable the learning of parameters from example sequences and to score new sequences.
+
+### States
+Each state is numbered ```0, 1, ..., num_states - 1```. The state machine starts in ```state 0``` and ends in ```num_states - 1```. Currently the state transitions are constrained so that, on each element in the input sequence, the state machine either stays in the current state or advances to a state represented by the next number. This default can be changed by setting the ```transitions``` and corresponding ```transition_parameters``` properties.
